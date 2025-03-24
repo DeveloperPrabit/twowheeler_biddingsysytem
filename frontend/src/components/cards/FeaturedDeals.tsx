@@ -23,8 +23,7 @@ const FeaturedDeals = () => {
       isSpecial: false
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1624885885310-54878364d38f?auto=format&fit=crop&q=80",
+      image: "/homeimages/bike4.webp",
       price: 11000,
       title: "2009 Kawasaki JTX",
       category: "Offroad",
@@ -33,8 +32,7 @@ const FeaturedDeals = () => {
       isSpecial: false
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1558981359-219d6364c9c8?auto=format&fit=crop&q=80",
+      image: "/homeimages/bike5.webp",
       price: 39999,
       title: "2010 Honda CBR",
       category: "Sportbike",
@@ -43,8 +41,7 @@ const FeaturedDeals = () => {
       isSpecial: true
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1597685204565-147d97d75a86?auto=format&fit=crop&q=80",
+      image: "/homeimages/bike6.webp",
       price: 70000,
       title: "2016 Sea doo Jet",
       category: "Luxury",
@@ -53,8 +50,7 @@ const FeaturedDeals = () => {
       isSpecial: true
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1622185135505-2d795003994a?auto=format&fit=crop&q=80",
+      image: "homeimages/bike7.webp",
       price: 8500,
       title: "2016 Suzuki PX",
       category: "Limited",

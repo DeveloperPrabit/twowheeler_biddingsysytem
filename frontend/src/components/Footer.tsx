@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
+import Image from "next/image";
 
 type SubscriptionFormData = {
   name: string;
@@ -43,24 +44,32 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">PHOTO GALLERY</h3>
             <div className="grid grid-cols-2 gap-2">
-              <img
-                src="/images/gallery-1.jpg"
+              <Image
+                src="/homeimages/bike1.webp"
                 alt="Gallery"
+                width={200}
+                height={200}
                 className="rounded w-full h-auto"
               />
-              <img
-                src="/images/gallery-2.jpg"
+              <Image
+                src="/homeimages/bike2.webp"
                 alt="Gallery"
+                width={200}
+                height={200}
                 className="rounded w-full h-auto"
               />
-              <img
-                src="/images/gallery-3.jpg"
+              <Image
+                src="/homeimages/bike3.webp"
                 alt="Gallery"
+                width={200}
+                height={200}
                 className="rounded w-full h-auto"
               />
-              <img
-                src="/images/gallery-4.jpg"
+              <Image
+                src="/homeimages/hero.webp"
                 alt="Gallery"
+                width={200}
+                height={200}
                 className="rounded w-full h-auto"
               />
             </div>

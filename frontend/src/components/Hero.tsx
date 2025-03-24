@@ -4,8 +4,8 @@ import {
   Bike,
   ShoppingCart,
   PenTool as Tool,
-  Users,
-  Phone,
+  // Users,
+  // Phone,
   ChevronRight
 } from "lucide-react";
 import Image from "next/image";
@@ -23,7 +23,7 @@ function HeroSection() {
 
       <div className="relative h-[600px] overflow-hidden">
         <Image
-          src="/homeimages/hero.webp"
+          src="/homeimages/bike1.webp"
           width={300}
           height={200}
           alt="ATV Racing"

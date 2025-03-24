@@ -5,7 +5,7 @@ const logos = [
   { src: "/homeimages/ducati.webp", alt: "Ducati" },
   { src: "/homeimages/honda.webp", alt: "Honda" },
   { src: "/homeimages/kawasaki.webp", alt: "Kawasaki" },
-  { src: "/homeimages/sendoo.webp", alt: "Sea-Doo" },
+  { src: "/homeimages/brp.webp", alt: "Sea-Doo" },
   { src: "/homeimages/star.webp", alt: "Star" },
   { src: "/homeimages/suzuki.webp", alt: "Suzuki" },
   { src: "/homeimages/yamaha.webp", alt: "Yamaha" }
@@ -25,7 +25,7 @@ export default function LogoSection() {
               alt={logo.alt}
               width={80}
               height={50}
-              objectFit="contain"
+              style={{ objectFit: "contain" }} // Use style here for objectFit
             />
           </div>
         ))}
