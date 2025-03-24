@@ -1,11 +1,11 @@
 import React from "react";
 import VehicleCard from "./VehicleCard";
+// import Image from "next/image";
 
 const FeaturedDeals = () => {
   const vehicles = [
     {
-      image:
-        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&q=80",
+      image: "homeimages/bike1.webp",
       price: 43600,
       title: "2016 Suzuki Jet",
       category: "Sportbike",
@@ -14,8 +14,7 @@ const FeaturedDeals = () => {
       isSpecial: false
     },
     {
-      image:
-        "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&q=80",
+      image: "homeimages/bike2.webp",
       price: 8500,
       title: "2016 Star 650",
       category: "Limited",
