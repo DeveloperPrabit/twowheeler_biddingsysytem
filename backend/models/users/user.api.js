@@ -1,9 +1,11 @@
 const express = require("express");
 const router = express.Router();
+const userController = require("./user.controller");
 
-router.post("/register", (req, res, next) => {
+router.post("/register", async (req, res, next) => {
     try {
-        res.json({ msg: "user register successfully..." })
+        const result = await userController.create(req.body);
+        res.json({ msg: "user register successfully...", data: result });
     } catch (e) {
         next(e);
 
@@ -12,7 +14,8 @@ router.post("/register", (req, res, next) => {
 
 router.post("/login", async (req, res, next) => {
     try {
-        res.json({ msg: "user login successfully..." })
+        const result = await userController.login(req.body)
+        res.json({ msg: "user login successfully...", data: result })
     } catch (e) {
         next(e);
 

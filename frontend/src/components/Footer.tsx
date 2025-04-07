@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div>
-            <h3 className="text-red-500 font-bold mb-4">MOTORS</h3>
+            <h3 className="text-red-500 font-bold mb-5">MOTORS</h3>
             <p className="text-sm mb-4">
               Fusce interdum ipsum egestas urna amet fringilla, at placerat ex
               venenatis. Aliquet luctus pharetra. Proin sed fringilla lectus ar
